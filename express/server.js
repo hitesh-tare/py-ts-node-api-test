@@ -42,9 +42,24 @@ async function readJSON_AND_SendResponse(file_path, req, res) {
       let fetch_Country = req.query.country;
       let fetch_isTricolor = req.query.istricolor;
 
-      if (fetch_Country && !fetch_isTricolor) {
-        //to convert to string 
-        fetch_Country = '' + fetch_Country;
+      if (fetch_Country && fetch_isTricolor) {
+        //to convert to string
+        fetch_Country = "" + fetch_Country;
+        //to convert to lowercase
+        fetch_Country = fetch_Country.toLowerCase();
+
+        //to convert string into boolean
+        fetch_isTricolor = fetch_isTricolor === "true";
+
+        data = data.filter(function (item) {
+          return (
+            item.country.toLowerCase() == fetch_Country &&
+            item.has_tricolor_flag == fetch_isTricolor
+          );
+        });
+      } else if (fetch_Country && !fetch_isTricolor) {
+        //to convert to string
+        fetch_Country = "" + fetch_Country;
         //to convert to lowercase
         fetch_Country = fetch_Country.toLowerCase();
 

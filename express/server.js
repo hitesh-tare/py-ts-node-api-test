@@ -41,10 +41,6 @@ async function readJSON_AND_SendResponse(file_path, req, res) {
 
       let fetch_Country = req.query.country;
       let fetch_isTricolor = req.query.istricolor;
-      console.warn("fetch_Country");
-      console.log(fetch_Country);
-      console.warn("fetch_isTricolor");
-      console.log(typeof fetch_isTricolor);
 
       if (fetch_Country && !fetch_isTricolor) {
         //to convert to string 

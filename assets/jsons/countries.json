@@ -1,0 +1,52 @@
+[
+  {
+    "state": "Alabama",
+    "country": "USA",
+    "has_tricolor_flag": false
+  },
+  {
+    "state": "California",
+    "country": "USA",
+    "has_tricolor_flag": false
+  },
+  {
+    "state": "Oregon",
+    "country": "USA",
+    "has_tricolor_flag": false
+  },
+  {
+    "state": "Texas",
+    "country": "USA",
+    "has_tricolor_flag": false
+  },
+  {
+    "state": "Michigan",
+    "country": "USA",
+    "has_tricolor_flag": false
+  },
+  {
+    "state": "Kansas",
+    "country": "USA",
+    "has_tricolor_flag": false
+  },
+  {
+    "state": "Maharashtra",
+    "country": "India",
+    "has_tricolor_flag": true
+  },
+  {
+    "state": "Gujarat",
+    "country": "India",
+    "has_tricolor_flag": true
+  },
+  {
+    "state": "Jharkhand",
+    "country": "India",
+    "has_tricolor_flag": true
+  },
+  {
+    "state": "Karnataka",
+    "country": "India",
+    "has_tricolor_flag": true
+  }
+]

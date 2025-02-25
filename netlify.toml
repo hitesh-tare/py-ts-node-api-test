@@ -1,0 +1,5 @@
+[functions]  
+	included_files = ["assets/jsons/*.json"]
+[build]
+  command = "npm install && npm run build"
+  functions = "functions"

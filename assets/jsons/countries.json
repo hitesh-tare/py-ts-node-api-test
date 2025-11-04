@@ -3,102 +3,119 @@
     "state": "Alabama",
     "country": "USA",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_us-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1919-07-04"
   },
   {
     "state": "California",
     "country": "USA",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_us-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1919-07-04"
   },
   {
     "state": "Oregon",
     "country": "USA",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_us-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1919-07-04"
   },
   {
     "state": "Texas",
     "country": "USA",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_us-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1919-07-04"
   },
   {
     "state": "Michigan",
     "country": "USA",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_us-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1919-07-04"
   },
   {
     "state": "Kansas",
     "country": "USA",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_us-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1919-07-04"
   },
   {
     "state": "British Columbia",
     "country": "Canada",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_ca-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1967-07-01"
   },
   {
     "state": "Quebec",
     "country": "Canada",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_ca-flag.gif",
-    "has_tricolor_flag": false
+    "has_tricolor_flag": false,
+    "created_date": "1967-07-01"
   },
   {
     "state": "Maharashtra",
     "country": "India",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1947-08-15"
   },
   {
     "state": "Gujarat",
     "country": "India",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1947-08-15"
   },
   {
     "state": "Jharkhand",
     "country": "India",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1947-08-15"
   },
   {
     "state": "Karnataka",
     "country": "India",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1947-08-15"
   },
   {
     "state": "Bavaria (Bayern)",
     "country": "Germany",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_gm-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1990-10-03"
   },
   {
     "state": "Baden",
     "country": "Germany",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_gm-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1990-10-03"
   },
   {
     "state": "Hanover (Hannover)",
     "country": "Germany",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_gm-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1990-10-03"
   },
   {
     "state": "Baja California",
     "country": "Mexico",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_mx-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1960-09-17"
   },
   {
     "state": "Sonora",
     "country": "Mexico",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_mx-flag.gif",
-    "has_tricolor_flag": true
+    "has_tricolor_flag": true,
+    "created_date": "1960-09-17"
   }
 ]

@@ -9,7 +9,9 @@ const morgan = require("morgan");
 const router = express.Router();
 router.get("/", (req, res) => {
   res.writeHead(200, { "Content-Type": "text/html" });
-  res.write("<h1>PY - Test Pipeline - Commit from diff. org. - Hello from Express.js!</h1>");
+  res.write(
+    "<h1>PY - Test Pipeline - Commit from diff. org. - Hello from Express.js!</h1>"
+  );
   res.end();
 });
 
@@ -41,7 +43,7 @@ async function readJSON_AND_SendResponse(file_path, req, res) {
 
       let fetch_Country = req.query.country;
       let fetch_isTricolor = req.query.istricolor;
-      let fetch_createdDate = req.query.createddate;     
+      let fetch_createdDate = req.query.createddate;
 
       if (fetch_Country) {
         //to convert to string
@@ -63,11 +65,25 @@ async function readJSON_AND_SendResponse(file_path, req, res) {
         });
       }
 
-      if (fetch_createdDate) { 
+      if (fetch_createdDate) {
         console.warn("fetch_createdDate");
         console.log(fetch_createdDate);
+
+        let date = new Date(fetch_createdDate[0] * 1000);
+        date.setHours(0, 0, 0, 0);
+        const fromDate = date.valueOf();
+        // console.info("fromDate");
+        // console.debug(fromDate);
+        const toDate = new Date(fetch_createdDate[1] * 1000).valueOf(); //45 days From Today
+        // console.info("toDate");
+        // console.debug(toDate);
+
+        data = data.filter((element) => {
+          const pyDate = Date.parse(element.created_date);
+          return pyDate >= fromDate && pyDate <= toDate;
+        });
       }
-        
+
       res.type("application/json");
       res.send(data);
     } catch (err) {

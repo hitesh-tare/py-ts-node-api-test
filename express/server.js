@@ -41,23 +41,9 @@ async function readJSON_AND_SendResponse(file_path, req, res) {
 
       let fetch_Country = req.query.country;
       let fetch_isTricolor = req.query.istricolor;
+      let fetch_createdDate = req.query.createddate;     
 
-      if (fetch_Country && fetch_isTricolor) {
-        //to convert to string
-        fetch_Country = "" + fetch_Country;
-        //to convert to lowercase
-        fetch_Country = fetch_Country.toLowerCase();
-
-        //to convert string into boolean
-        fetch_isTricolor = fetch_isTricolor === "true";
-
-        data = data.filter(function (item) {
-          return (
-            item.country.toLowerCase() == fetch_Country &&
-            item.has_tricolor_flag == fetch_isTricolor
-          );
-        });
-      } else if (fetch_Country && !fetch_isTricolor) {
+      if (fetch_Country) {
         //to convert to string
         fetch_Country = "" + fetch_Country;
         //to convert to lowercase
@@ -66,7 +52,9 @@ async function readJSON_AND_SendResponse(file_path, req, res) {
         data = data.filter(function (item) {
           return item.country.toLowerCase() == fetch_Country;
         });
-      } else if (!fetch_Country && fetch_isTricolor) {
+      }
+
+      if (fetch_isTricolor) {
         //to convert string into boolean
         fetch_isTricolor = fetch_isTricolor === "true";
 
@@ -74,6 +62,12 @@ async function readJSON_AND_SendResponse(file_path, req, res) {
           return item.has_tricolor_flag == fetch_isTricolor;
         });
       }
+
+      if (fetch_createdDate) { 
+        console.warn("fetch_createdDate");
+        console.log(fetch_createdDate);
+      }
+        
       res.type("application/json");
       res.send(data);
     } catch (err) {

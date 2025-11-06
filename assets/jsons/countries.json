@@ -77,6 +77,27 @@
     "created_date": "2025-08-15"
   },
   {
+    "state": "Bihar",
+    "country": "India",
+    "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
+    "has_tricolor_flag": true,
+    "created_date": "2025-08-15"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
+    "has_tricolor_flag": true,
+    "created_date": "2025-08-15"
+  },
+  {
+    "state": "West Bengal",
+    "country": "India",
+    "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
+    "has_tricolor_flag": true,
+    "created_date": "2025-08-15"
+  },
+  {
     "state": "Karnataka",
     "country": "India",
     "flag_url":"https://www.worldometers.info//img/flags/small/tn_in-flag.gif",
